@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Minha Landing — Contato</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <div id="site-header" data-partial="partials/header.html"></div>
+
+  <div class="container" style="margin-top: 50px; margin-bottom: 50px;">
+    
+    <center>
+      <h1>Entre em Contato</h1>
+      <p>Mande uma mensagem e a gente responde logo!</p>
+    </center>
+
+    <br>
+
+    <div class="card" style="max-width: 500px; margin: 0 auto; padding: 30px; border: 1px solid #ccc; background: white;">
+      
+      <form id="contato-form">
+        
+        <label>Seu Nome:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" style="width: 100%; padding: 10px; margin-bottom: 15px;">
+        
+        <br>
+
+        <label>Seu E-mail:</label><br>
+        <input type="email" id="email" name="email" placeholder="exemplo@email.com" style="width: 100%; padding: 10px; margin-bottom: 15px;">
+
+        <br>
+
+        <label>Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva aqui..." style="width: 100%; padding: 10px; margin-bottom: 15px;"></textarea>
+
+        <br>
+
+        <button type="submit" class="botao" style="width: 100%; font-size: 18px;">
+           Enviar Agora
+        </button>
+
+        <p id="contato-feedback" style="margin-top: 15px; text-align: center; color: blue;"></p>
+
+      </form>
+
+    </div>
+
+  </div>
+
+  <div id="site-footer" data-partial="partials/footer.html"></div>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
